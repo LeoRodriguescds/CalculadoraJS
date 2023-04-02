@@ -4,7 +4,7 @@
 }
 
 :root {
-    --cor-roxo-escuro: #968BDE;
+    --cor-roxo-escuro: #5846c9;
     --cor-lilas: #B7AEF2;
     --cor-verde-agua-escuro: #238C6E;
     --cor-verde-agua-claro: #2BD999;
@@ -84,7 +84,7 @@ h3 {
 
 .operators,
 #equal {
-    background-color: #020101ef;
+    background-color: var(--cor-roxo-escuro);
     color: #fff;
     opacity: 100%;
     transition: .4s;
@@ -92,7 +92,7 @@ h3 {
 
 .operators:hover,
 #equal:hover {
-    opacity: 90%;
+    opacity: 80%;
 }
 
 .numbers {
